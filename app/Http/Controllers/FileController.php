@@ -207,7 +207,6 @@ class FileController extends Controller
             } catch (Exception $e) {
                 DB::rollBack();
                 $this->registerBitacora($tracer, $e->getMessage());
-                dd($e->getMessage());
                 return redirect('upload')->with('error', $e->getMessage());
             }
         }

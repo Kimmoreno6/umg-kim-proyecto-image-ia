@@ -58,7 +58,7 @@ return [
             'key_file_path' => env('GOOGLE_CLOUD_KEY_FILE', base_path('ialab-387922-e206ef8a05b0.json')), // optional: /path/to/service-account.json
             'key_file' => [], // optional: Array of data that substitutes the .json file (see below)
             'project_id' => env('GOOGLE_CLOUD_PROJECT_ID', null), // optional: is included in key file
-            'bucket' => env('GOOGLE_CLOUD_STORAGE_BUCKET', 'ia_cloud_vision'),
+            'bucket' => env('GOOGLE_CLOUD_STORAGE_BUCKET', 'repositorio_imagenes'),
             'path_prefix' => env('GOOGLE_CLOUD_STORAGE_PATH_PREFIX', ''), // optional: /default/path/to/apply/in/bucket
             'storage_api_uri' => env('GOOGLE_CLOUD_STORAGE_API_URI', null), // see: Public URLs below
             'apiEndpoint' => env('GOOGLE_CLOUD_STORAGE_API_ENDPOINT', null), // set storageClient apiEndpoint
